@@ -80,6 +80,7 @@ The Streamlit application allows users to:
 ### 📸 App Preview
 ![App Preview](screenshots/app_preview.png)
 
+
 ---
 
 ## 🛠️ Technologies Used

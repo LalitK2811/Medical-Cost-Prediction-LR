@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "wb"))
 
 
 
@@ -46,3 +46,4 @@ input_df = pd.DataFrame([{
 if st.button("Predict Medical Cost"):
     prediction = model.predict(input_df)[0]
     st.success(f"Estimated Medical Cost: ₹ {prediction:,.2f}")
+
